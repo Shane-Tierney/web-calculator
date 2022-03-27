@@ -10,9 +10,15 @@
 </head>
 <body>
     <h1>Addition Calculator</h1>
+    <h2>test</h2>
     <div class="inputEntry">
         <input type="number" id="firstNum" name="firstNum">
-        <p class="plusSign">   +   </p>
+        <select name="operator" id="operator">
+            <option value="addition">+</option>
+            <option value="subtraction">-</option>
+            <option value="multiplication">*</option>
+            <option value="division">/</option>
+        </select>
         <input type="number" id="secondNum" name="secondNum">
         <button onclick="calculate()">Calculate!</button>
     </div>

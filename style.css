@@ -29,11 +29,13 @@ button {
     color: lime;
     margin-left: 5px;
 }
-.plusSign {
-    margin: 10px;
-    font-size: 20px;
-}
 
 #answer {
     margin-left: 10px;
+}
+
+#operator {
+    background-color: violet;
+    color: lime;
+    outline: none; 
 }
