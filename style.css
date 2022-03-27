@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to bottom, lime 0%, violet 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.inputEntry {
+    display: flex;
+}
+
+.answer {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input[type=number]:focus {
+    background-color: lime;
+    outline: none;
+    
+}
+
+input[type=number] {
+    background-color: violet;
+}
+
+button {
+    background-color: violet;
+    color: lime;
+    margin-left: 5px;
+}
+
+#answer {
+    margin-left: 10px;
+}
+
+#operator {
+    background-color: violet;
+    color: lime;
+    outline: none; 
+}
